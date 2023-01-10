@@ -13,7 +13,7 @@ from pickle import dump
 from pickle import load
 
 # Loading trained model and making predictions
-rf_model = pickle.load(open(r"C:\Users\lenovo\Downloads\filenalized model", "rb"))
+rf_model = pickle.load(open(r"filenalized model", "rb"))
 
 def welcome():
     return "Welcome all" 
